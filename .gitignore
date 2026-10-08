@@ -3,3 +3,5 @@ package/
 .sites-runtime/
 *.zip
 *.tar.gz
+dist/
+node_modules/

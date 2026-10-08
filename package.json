@@ -1,0 +1,12 @@
+{
+  "name": "portfolio-95",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfolio Windows 95 et jeux arcade",
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "start": "npm run build && node server.cjs",
+    "dev": "node server.cjs --dev"
+  },
+  "engines": { "node": ">=20" }
+}
