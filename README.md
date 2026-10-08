@@ -1,25 +1,22 @@
-# Portfolio 95
+# Portfolio Arcade
 
-Portfolio personnel sous forme de bureau Windows 95, sans dépendance externe.
+Un bureau Windows 95 avec une navigation légère par onglets et des applications rétro.
 
-## Aperçu local
+## Lancer en local
 
-Depuis ce dossier, exécuter `node server.cjs`, puis ouvrir http://127.0.0.1:5173/.
+Double-cliquer sur `Lancer-portfolio.cmd`, puis ouvrir http://127.0.0.1:5173/.
+Ou exécuter `node server.cjs` dans ce dossier. Fermer le terminal ou utiliser Ctrl+C pour arrêter.
 
-## Fonctionnement
+## Applications
 
-- Gestion de fenêtres : déplacer, redimensionner, agrandir, réduire et restaurer.
-- Explorateur de projets et présentation dans un Bloc-notes éditable.
-- Terminal limité aux commandes du portfolio, sans accès au système.
-- Paint : dessin, gomme, palette et export PNG.
-- Démineur : 9 × 9, 10 mines, premier clic sûr, drapeaux et chronomètre.
-- Menu Démarrer, menu Fichier, menu contextuel, veille et sons facultatifs.
-- Adaptation mobile, navigation clavier et préférence locale de fond d’écran.
+- Projets, Bloc-notes, contact et terminal du portfolio.
+- Paint avec export PNG.
+- Démineur : 9 × 9, premier clic sûr.
+- Snake : flèches ou ZQSD, espace pour la pause, commandes tactiles sur mobile.
+- Memory : huit paires, compteur de coups, nouvelle partie.
+- Tetris : rotation, chute rapide, lignes, score et commandes tactiles.
+- Bug Hunter : six défis JavaScript avec correction expliquée et résultat final.
+- Super Dev : jeu de plateforme original inspiré des classiques, pièces, robots, trois vies et commandes tactiles.
 
-Les projets, la biographie et les coordonnées sont explicitement à renseigner dans `dist/main.js`. Aucun projet ni parcours professionnel n’a été inventé.
-
-Les sources du prototype de cabine précédent sont conservées dans l’historique Git. Le répertoire `.sites-runtime` contient uniquement des sauvegardes et fichiers de travail ignorés.
-
-## Vérifications effectuées
-
-Analyse syntaxique JavaScript, aperçu HTTP, affichage desktop et mobile, réduction/restauration, terminal `help`, dessin Paint, démineur et menu Démarrer.
+Les projets et coordonnées restent à renseigner. La version est locale.
+Les derniers ajouts (centre de contrôle, cartes d’applications, Inspecteur) ont été retirés.
