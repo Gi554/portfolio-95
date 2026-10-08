@@ -2,3 +2,4 @@ package/
 *.tgz
 .sites-runtime/
 *.zip
+*.tar.gz
