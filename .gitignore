@@ -5,3 +5,4 @@ package/
 *.tar.gz
 dist/
 node_modules/
+src/vendor/

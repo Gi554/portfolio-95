@@ -35,3 +35,13 @@ Netlify reconstruit le site à chaque déploiement à partir de `src`.
 
 Les projets et coordonnées restent à renseigner.
 Les derniers ajouts (centre de contrôle, cartes d’applications, Inspecteur) ont été retirés.
+
+## Nouveautés arcade
+
+- Solitaire Klondike : pioche une carte, fondations, sélection tactile et annulation.
+- Bug Invaders : vagues de bugs, division et blocage du tir.
+- Packet Runner : collecte de clés et obstacles réseau.
+- Snake : départ lent et vitesse progressive toutes les cinq pommes.
+- Super Dev : tolérance au bord et mémorisation du saut avant atterrissage.
+- Musique rétro en boucle et effets : activation à la première interaction, bouton ♪ pour couper.
+
